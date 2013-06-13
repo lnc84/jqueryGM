@@ -1,0 +1,72 @@
+body{background: #fff;width: 100%;}
+
+#logo{
+	width:150px;
+	margin: 0 auto;
+}
+
+#setTimeOut{
+	margin-top:50px;	
+}
+
+#btnFade{
+	cursor:pointer;
+}
+
+#add{
+	width:100px;
+	cursor:pointer;
+}
+
+.active{
+	width:400px;
+}
+
+.align{
+	float:left;margin:5px;
+}
+
+.interior{
+	background-image:url('../img/chevrolet-sonic-interior.jpg');
+	width:1200px;
+	height:800px;
+	clear:both;
+}
+
+
+#ContentinfoTableWrapper
+{
+	overflow:hidden;
+}
+
+#infoTableWrapper{
+	background: url("../img/especificaciones.jpg") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 400px;
+    margin-top: -250px;
+    padding-top: 45px;
+    position: absolute;
+    right: -900px;
+    top: 50%;
+    width: 900px;
+    z-index: 999;
+}
+
+#showInfoTableBtn{
+	background-image: url("../img/btn_espec.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 280px;
+    left: 0;
+    margin-left: -45px;
+    margin-top: -140px;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    z-index: 200;
+}
+
+.open{
+	background-position:right;
+}

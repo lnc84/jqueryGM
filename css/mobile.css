@@ -1,0 +1,17 @@
+@media only screen and (max-width : 480px) {	 
+	/*Style Declarations For This Width Range */
+	 body { background: green;}
+}
+
+@media only screen and (max-width : 320px) {	 
+	/*Style Declarations For This Width Range */
+	 body { background: red; }
+	 
+	.interior{
+		background-image:url('../img/chevrolet-sonic-interior.jpg');
+		width:200px;
+		height:200px;
+		clear:both;
+		background-size:cover;
+	}
+}
