@@ -1,4 +1,4 @@
-body{background: #fff;width: 100%;}
+body{background: #fff;width: 100%; overflow-x: hidden;}
 
 #logo{
 	width:150px;
